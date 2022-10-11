@@ -12,9 +12,9 @@ The code provided here includes:
 - **Tachometer_Ground_Truth.parquet**:  The true speeds over time of the HFIR's four cooling tower fans during the acoustic measurement period. 
 
 ## Publication
-A full description of the design principles behind the software and its application to two different nuclear research reactor cooling towers will be provided in the following publication:
+A full description of the design principles behind the software and its application to two different nuclear research reactor cooling towers are provided in the following publication:
 
-**Eaton, S. W.; Cárdenas, E. S.; Hix, J. D.; Johnson, J. T.; Watson, S. M.; Chichester, D. L.; Garcés, M. A.; Magaña-Zook, S. A.; Maceira, M.; Marcillo, O. E.; Chai, C.; Reichardt, T. A. "An Algorithmic Approach to Predicting Mechanical Draft Cooling Tower Fan Speeds from Infrasound Signals" Applied Acoustics (submitted).**
+Eaton, S. W.; Cárdenas, E. S.; Hix, J. D.; Johnson, J. T.; Watson, S. M.; Chichester, D. L.; Garcés, M. A.; Magaña-Zook, S. A.; Maceira, M.; Marcillo, O. E.; Chai, C.; d’Entremont, B.; Reichardt, T. A. “An algorithmic approach to predicting mechanical draft cooling tower fan speeds from infrasound signals”, Appl. Acoust. **2022,** *199,* 109105.
 
 ## Operation & Expected Results
 The configuration file already provides the necessary parameters to generate the following output (below).  Experiment with parameters controlling the short-time Fourier transform (samples_per_second, window, overlap) and the horizontal filter (total_filter_height, mid_filter_height) to generate different results.  Control the plotting range in time (start, stop), frequency (freq_lims), and sound pressure level (spl_lims) by adjusting the corresponding parameters.
